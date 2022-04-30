@@ -1,0 +1,90 @@
+
+Clip: amadeus
+RF Missed: 2394 out of 4699
+Single face accuracy: 0.5464992551606724
+Multi face accuracy: 0.6267290912960204
+Total accuracy: 0.5094701000212811
+
+Clip: argo
+RF Missed: 2577 out of 5157
+Single face accuracy: 0.5543920884235021
+Multi face accuracy: 0.6823734729493891
+Total accuracy: 0.4997091332169866
+
+Clip: birdman
+RF Missed: 3529 out of 5864
+Single face accuracy: 0.5685538881309686
+Multi face accuracy: 0.49556616643929063
+Total accuracy: 0.6018076398362893
+
+Clip: chicago
+RF Missed: 2437 out of 3590
+Single face accuracy: 0.5275766016713093
+Multi face accuracy: 0.5465181058495822
+Total accuracy: 0.6788300835654596
+
+Clip: departed
+RF Missed: 774 out of 2304
+Single face accuracy: 0.6640625
+Multi face accuracy: 0.6640625
+Total accuracy: 0.3359375
+
+Clip: emperor
+RF Missed: 1926 out of 3189
+Single face accuracy: 0.6503606146127312
+Multi face accuracy: 0.4941988084038884
+Total accuracy: 0.6039510818438382
+
+Clip: gladiator
+RF Missed: 2980 out of 4386
+Single face accuracy: 0.5572275421796626
+Multi face accuracy: 0.5722754217966256
+Total accuracy: 0.6794345645234838
+
+Clip: kings
+RF Missed: 2619 out of 4293
+Single face accuracy: 0.49988353133007224
+Multi face accuracy: 0.5315630095504309
+Total accuracy: 0.610062893081761
+
+Clip: no_country_clip1
+RF Missed: 1405 out of 2855
+Single face accuracy: 0.5369527145359019
+Multi face accuracy: 0.9523642732049037
+Total accuracy: 0.4921190893169877
+
+Clip: no_country_clip2
+RF Missed: 393 out of 1345
+Single face accuracy: 0.7078066914498141
+Multi face accuracy: 0.7092936802973977
+Total accuracy: 0.2921933085501859
+
+Clip: saving
+RF Missed: 2057 out of 4141
+Single face accuracy: 0.7065926104805602
+Multi face accuracy: 0.7423327698623521
+Total accuracy: 0.49673991789422844
+
+Clip: shakespeare_clip1
+RF Missed: 777 out of 1920
+Single face accuracy: 0.7640625
+Multi face accuracy: 0.6229166666666667
+Total accuracy: 0.4046875
+
+Clip: shakespeare_clip2
+RF Missed: 1354 out of 2987
+Single face accuracy: 0.5493806494810847
+Multi face accuracy: 0.5473719450954135
+Total accuracy: 0.45329762303314364
+
+Clip: slumdog
+RF Missed: 2510 out of 3910
+Single face accuracy: 0.6289002557544757
+Multi face accuracy: 0.5746803069053709
+Total accuracy: 0.6419437340153452
+
+Clip: unforgiven
+RF Missed: 1894 out of 3486
+Single face accuracy: 0.5169248422260471
+Multi face accuracy: 0.5034423407917383
+Total accuracy: 0.5433161216293746

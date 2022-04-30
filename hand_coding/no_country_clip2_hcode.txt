@@ -1,0 +1,109 @@
+// ----------------------------- editing
+// c    plain cut
+// mmc  motion matched cut
+// xf   cross fade
+
+// ----------------------------- other
+// don  dialogue, speaking character is onscreen
+// doff dialogue, speaking character is offscreen
+// txt  text is onscreen
+
+// ----------------------------- faces
+// f    a single face is present onscreen
+// fa   a non-human face is present onscreen
+// ff   multiple faces (human and/or nonhuman) are onscreen
+
+// ----------------------------- motion (frame space)
+// m   a single object or character is moving w.r.t. the frame (i.e., in frame space)
+// mm   multiple characters or objects are moving w.r.t. the frame (i.e., in frame space)
+// tr   tracking motion: an object is moving in world space, but is stationary in the frame due to camera motion.
+
+// ----------------------------- motion (camera)
+// pt   pan, tilt, or a combination of the two
+// z    zoom
+// d    dolly
+// dizo dolly in, zoom out (not common)
+// cr   crane: camera base and mount are both in motion
+// h    as above, but jerkier
+// r    racking (focal plane in motion)
+
+// end  the last frame number
+
+// todo index frame numbers from 1
+
+end 1345 1345
+
+f 1 157
+m 1 84
+
+c 158 159
+f 159 223
+
+c 223 224
+f 224 316
+
+c 316 317
+f 317 533
+
+c 533 534
+f 534 572
+
+c 572 573
+f 573 647
+
+c 647 648
+f 648 723
+
+c 723 724
+f 724 764
+
+c 764 765
+ff 765 825
+m 765 825
+
+c 825 826
+ff 826 882
+
+c 882 883
+f 883 949
+
+c 949 950
+f 950 1076
+
+c 1076 1077
+f 1077 1139
+
+c 1139 1140
+f 1140 1346
+
+don 50 107
+doff 110 126
+don 139 161
+
+don 200 223 
+don 223 250
+
+doff 285 315
+don 316 390
+
+doff 405 430
+don 430 535
+don 535 548
+doff 556 571
+don 572 643
+
+don 685 725
+don 725 739
+
+doff 756 763
+don 764 798
+
+don 811 869
+don 876 948
+doff 949 976
+
+don 1014 1054
+don 1109 1125
+
+doff 1132 1138
+don 1139 1167

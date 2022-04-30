@@ -1,0 +1,113 @@
+// ----------------------------- editing
+// c    plain cut
+// mmc  motion matched cut
+// xf   cross fade
+
+// ----------------------------- other
+// don  dialogue, speaking character is onscreen
+// doff dialogue, speaking character is offscreen
+// txt  text is onscreen
+
+// ----------------------------- faces
+// f    a single face is present onscreen
+// fa   a non-human face is present onscreen
+// ff   multiple faces (human and/or nonhuman) are onscreen
+
+// ----------------------------- motion (frame space)
+// m   a single object or character is moving w.r.t. the frame (i.e., in frame space)
+// mm   multiple characters or objects are moving w.r.t. the frame (i.e., in frame space)
+// tr   tracking motion: an object is moving in world space, but is stationary in the frame due to camera motion.
+
+// ----------------------------- motion (camera)
+// pt   pan, tilt, or a combination of the two
+// z    zoom
+// d    dolly
+// dizo dolly in, zoom out (not common)
+// cr   crane: camera base and mount are both in motion
+// h    as above, but jerkier
+// r    racking (focal plane in motion)
+
+// end  the last frame number
+
+// note: this file uses frame numbers indexed from 1
+
+end 1920 1920
+
+don 931 953
+doff 1375 1392
+don 1393 1430
+doff 1431 1549
+don 1550 1665
+doff 1666 1712
+
+pt 1 108
+cr 109 355
+ff 9 155
+mm 1 355
+c 355 356
+
+cr 356 716
+ff 356 716
+mm 356 716
+c 716 717
+
+d 717 963
+ff 717 725
+f 726 736
+ff 770 978
+mm 717 948
+c 978 979
+
+f 979 1006
+ff 1007 1020
+f 1028 1061
+m 1004 1031
+c 1061 1062
+
+ff 1062 1080
+f 1081 1184
+f 1192 1210
+mm 1062 1085
+m 1086 1119
+mm 1120 1152
+r 1186 1197
+c 1210 1211
+
+ff 1211 1260
+mm 1211 1260
+c 1260 1261
+
+ff 1261 1328
+mm 1261 1328
+c 1328 1329
+
+ff 1329 1391
+mm 1329 1391
+c 1391 1392
+
+ff 1392 1430
+mm 1392 1430
+d 1392 1430
+c 1430 1431
+
+pt 1431 1537
+ff 1431 1549
+mm 1431 1549
+c 1549 1550
+
+tr 1550 1684
+ff 1550 1684
+mm 1550 1684
+c 1684 1685
+
+h 1685 1729
+mm 1685 1729
+c 1729 1730
+
+ff 1730 1810
+mm 1730 1810
+c 1810 1811
+
+tr 1811 1888
+ff 1811 1888
+f 1888 1920

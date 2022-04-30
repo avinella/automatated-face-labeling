@@ -1,0 +1,272 @@
+// ----------------------------- editing
+// c    plain cut
+// mmc  motion matched cut
+// xf   cross fade
+
+// ----------------------------- other
+// don  dialogue, speaking character is onscreen
+// doff dialogue, speaking character is offscreen
+// txt  text is onscreen
+
+// ----------------------------- faces
+// f    a single face is present onscreen
+// fa   a non-human face is present onscreen
+// ff   multiple faces (human and/or nonhuman) are onscreen
+
+// ----------------------------- motion (frame space)
+// m   a single object or character is moving w.r.t. the frame (i.e., in frame space)
+// mm   multiple characters or objects are moving w.r.t. the frame (i.e., in frame space)
+// tr   tracking motion: an object is moving in world space, but is stationary in the frame due to camera motion.
+
+// ----------------------------- motion (camera)
+// pt   pan, tilt, or a combination of the two
+// z    zoom
+// d    dolly
+// dizo dolly in, zoom out (not common)
+// cr   crane: camera base and mount are both in motion
+// h    as above, but jerkier
+// r    racking (focal plane in motion)
+
+// end  the last frame number
+
+// note: this file uses frame numbers indexed from 1
+
+end 3590 3590
+
+ff 1 9
+
+c 9 10
+pt 10 52
+mm 10 53
+
+c 52 53
+pt 53 108
+mm 53 108
+
+c 108 109
+mm 109 128
+pt 109 128
+
+c 128 129
+ff 129 152
+pt 129 152
+
+c 152 153
+m 153 177
+pt 153 177
+
+c 177 178
+f 178 212
+
+c 212 213
+mm 213 384
+pt 213 277
+cr 278 355
+ff 355 384
+
+c 384 385
+m 385 457
+
+c 457 458
+m 458 563
+
+c 563 564
+m 564 601
+
+c 601 602
+f 602 654
+
+c 654 655
+pt 655 735
+
+c 735 736
+
+c 802 803
+f 851 1028
+
+c 1028 1029
+f 1029 1131
+
+c 1131 1132
+f 1132 1163
+
+c 1163 1164
+m 1166 1185
+
+c 1185 1186
+//mbg 1186 1264
+pt 1186 1264
+
+c 1264 1265
+f 1265 1321
+
+c 1321 1322
+pt 1322 1368
+f 1322 1368
+
+c 1368 1369
+f 1369 1419
+
+c 1419 1420
+f 1420 1526
+
+c 1526 1527
+f 1527 1585
+
+c 1585 1586
+f 1586 1694
+pt 1586 1694
+
+c 1694 1695
+ff 1695 1739
+pt 1695 1739
+
+c 1739 1740
+
+c 1802 1803
+f 1803 1823
+
+c 1823 1824
+ff 1824 1849
+
+c 1849 1850
+ff 1850 1883
+
+c 1883 1884
+mm 1884 1913
+
+c 1913 1914
+mm 1914 1939
+
+c 1939 1940
+ff 1940 1994
+
+c 1994 1995
+ff 1995 2058
+pt 1995 2058
+
+c 2058 2059
+ff 2059 2076
+
+c 2075 2076
+ff 2076 2099
+z 2076 2099
+
+c 2099 2100
+ff 2100 2129
+mm 2100 2129
+
+c 2129 2130
+ff 2130 2184
+mm 2130 2184
+
+c 2189 2190
+f 2190 2220
+ff 2220 2249
+f 2249 2266
+
+c 2266 2267
+cr 2267 2485
+//mbg 2267 2350
+mm 2267 2335 
+f 2435 2519
+
+c 2519 2520
+mm 2520 2605
+ff 2520 2605
+
+c 2605 2606
+mm 2606 2634
+
+c 2634 2635
+ff 2635 2700
+mm 2635 2700
+
+c 2700 2701
+f 2709 2739
+
+c 2739 2740
+f 2740 2786
+pt 2740 2786
+
+c 2786 2787
+ff 2787 2826
+
+c 2826 2827
+ff 2827 2869
+mm 2827 2869
+
+c 2869 2870
+f 2887 2911
+
+c 2911 2912
+ff 2912 2960
+
+c 2960 2961
+ff 2961 2977
+mm 2961 2977
+
+c 2977 2978
+mm 2978 2991
+
+c 2991 2992
+ff 2992 3011
+
+c 3011 3012
+ff 3012 3037
+
+c 3037 3038
+f 3038 3078
+mm 3038 3049
+
+c 3078 3079
+f 3079 3108
+m 3079 3108
+
+c 3108 3109
+z 3109 3126
+f 3109 3126
+
+c 3126 3127
+f 3127 3145
+z 3127 3145
+
+c 3145 3146
+f 3146 3153
+z 3146 3153
+
+c 3153 3154
+f 3154 3160
+
+c 3160 3161
+z 3161 3180
+f 3161 3180
+
+c 3180 3181
+
+c 3195 3196
+f 3199 3227
+
+c 3227 3228
+f 3228 3305
+mm 3228 3305
+z 3228 3305
+
+c 3305 3306
+f 3363 3391
+mm 3306 3391
+
+c 3391 3392
+f 3396 3508
+pt 3450 3590
+
+doff 60 112
+don 194 212
+doff 213 515
+
+doff 3298 3328
+don 3352  3391
+doff 3392 3425
+don 3425 3495
+doff 3503 3534
+doff 3534 3590

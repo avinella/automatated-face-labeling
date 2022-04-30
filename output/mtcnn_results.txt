@@ -1,0 +1,90 @@
+
+Clip: amadeus
+MTCNN Missed: 2611 out of 4699
+Single face accuracy: 0.5277718663545435
+Multi face accuracy: 0.6865290487337732
+Total accuracy: 0.5556501383273037
+
+Clip: argo
+MTCNN Missed: 3442 out of 5157
+Single face accuracy: 0.4677137870855148
+Multi face accuracy: 0.7579988365328679
+Total accuracy: 0.667442311421369
+
+Clip: birdman
+MTCNN Missed: 4257 out of 5864
+Single face accuracy: 0.519781718963165
+Multi face accuracy: 0.4607776261937244
+Total accuracy: 0.7259549795361528
+
+Clip: chicago
+MTCNN Missed: 2273 out of 3590
+Single face accuracy: 0.5153203342618384
+Multi face accuracy: 0.7261838440111421
+Total accuracy: 0.6331476323119777
+
+Clip: departed
+MTCNN Missed: 689 out of 2304
+Single face accuracy: 0.7100694444444444
+Multi face accuracy: 0.7990451388888888
+Total accuracy: 0.2990451388888889
+
+Clip: emperor
+MTCNN Missed: 2424 out of 3189
+Single face accuracy: 0.6055189714644089
+Multi face accuracy: 0.4192536845406083
+Total accuracy: 0.7601128880526811
+
+Clip: gladiator
+MTCNN Missed: 3067 out of 4386
+Single face accuracy: 0.6290469676242589
+Multi face accuracy: 0.6267669858641132
+Total accuracy: 0.6992704058367533
+
+Clip: kings
+MTCNN Missed: 2756 out of 4293
+Single face accuracy: 0.49825296995108315
+Multi face accuracy: 0.6037735849056604
+Total accuracy: 0.6419753086419753
+
+Clip: no_country_clip1
+MTCNN Missed: 1209 out of 2855
+Single face accuracy: 0.5891418563922942
+Multi face accuracy: 0.9852889667250437
+Total accuracy: 0.4234676007005254
+
+Clip: no_country_clip2
+MTCNN Missed: 692 out of 1345
+Single face accuracy: 0.5301115241635688
+Multi face accuracy: 0.9070631970260223
+Total accuracy: 0.5144981412639406
+
+Clip: saving
+MTCNN Missed: 1861 out of 4141
+Single face accuracy: 0.7290509538758754
+Multi face accuracy: 0.7911132576672302
+Total accuracy: 0.4494083554696933
+
+Clip: shakespeare_clip1
+MTCNN Missed: 1208 out of 1920
+Single face accuracy: 0.6947916666666667
+Multi face accuracy: 0.4552083333333333
+Total accuracy: 0.6291666666666667
+
+Clip: shakespeare_clip2
+MTCNN Missed: 2018 out of 2987
+Single face accuracy: 0.5473719450954135
+Multi face accuracy: 0.4633411449614998
+Total accuracy: 0.6755942417140944
+
+Clip: slumdog
+MTCNN Missed: 2323 out of 3910
+Single face accuracy: 0.69846547314578
+Multi face accuracy: 0.6465473145780052
+Total accuracy: 0.5941176470588235
+
+Clip: unforgiven
+MTCNN Missed: 2561 out of 3486
+Single face accuracy: 0.5355708548479633
+Multi face accuracy: 0.4543889845094664
+Total accuracy: 0.7346528973034997

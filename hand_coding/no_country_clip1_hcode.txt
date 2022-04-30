@@ -1,0 +1,134 @@
+// ----------------------------- editing
+// c    plain cut
+// mmc  motion matched cut
+// xf   cross fade
+
+// ----------------------------- other
+// don  dialogue, speaking character is onscreen
+// doff dialogue, speaking character is offscreen
+// txt  text is onscreen
+
+// ----------------------------- faces
+// f    a single face is present onscreen
+// fa   a non-human face is present onscreen
+// ff   multiple faces (human and/or nonhuman) are onscreen
+
+// ----------------------------- motion (frame space)
+// m   a single object or character is moving w.r.t. the frame (i.e., in frame space)
+// mm   multiple characters or objects are moving w.r.t. the frame (i.e., in frame space)
+// tr   tracking motion: an object is moving in world space, but is stationary in the frame due to camera motion.
+
+// ----------------------------- motion (camera)
+// pt   pan, tilt, or a combination of the two
+// z    zoom
+// d    dolly
+// dizo dolly in, zoom out (not common)
+// cr   crane: camera base and mount are both in motion
+// h    as above, but jerkier
+// r    racking (focal plane in motion)
+
+// end  the last frame number
+
+// note: this file uses frame numbers indexed from 1
+// (no dialogue in this clip)
+
+end 2855 2855
+
+txt 1 149
+mm 1 15
+m 16 19
+mm 20 77
+m 78 149
+c 149 150
+
+f 150 303
+c 303 304
+
+f 304 460
+m 316 375
+c 460 461
+
+mm 461 554
+c 554 555
+
+f 555 661
+c 661 662
+
+mm 662 752
+txt 672 704
+c 752 753
+
+m 827 1127
+f 880 948
+c 1127 1128
+
+f 1128 1160
+txt 1128 1160
+c 1160 1161
+
+m 1161 1197
+c 1223 1224
+
+f 1224 1280
+txt 1224 1280
+c 1280 1281
+
+mm 1281 1366
+c 1366 1367
+
+txt 1367 1415
+f 1367 1415
+c 1415 1416
+
+m 1416 1498
+c 1498 1499
+
+f 1499 1551
+txt 1499 1551
+m 1500 1536
+c 1551 1552
+
+m 1552 1672
+c 1672 1673
+
+txt 1673 1721
+f 1673 1721
+c 1721 1722
+
+m 1722 1921
+pt 1779 1852
+pt 1904 1921
+c 1921 1922
+
+txt 1922 1965
+m 1922 1949
+c 1965 1966
+
+m 1966 2022
+c 2022 2023
+
+f 2023 2123
+txt 2023 2123
+c 2123 2124
+
+m 2124 2234
+c 2248 2249
+
+f 2249 2357
+ff 2358 2399
+f 2400 2448
+d 2296 2456
+tr 2296 2456
+mm 2249 2456
+c 2456 2457
+
+d 2457 2755
+tr 2457 2755
+txt 2457 2571
+f 2579 2589
+f 2600 2635
+f 2718 2755
+m 2459 2730
+c 2755 2756
+
+mm 2756 2855

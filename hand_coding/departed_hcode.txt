@@ -1,0 +1,159 @@
+// ----------------------------- editing
+// c    plain cut
+// mmc  motion matched cut
+// xf   cross fade
+
+// ----------------------------- other
+// don  dialogue, speaking character is onscreen
+// doff dialogue, speaking character is offscreen
+// txt  text is onscreen
+
+// ----------------------------- faces
+// f    a single face is present onscreen
+// fa   a non-human face is present onscreen
+// ff   multiple faces (human and/or nonhuman) are onscreen
+
+// ----------------------------- motion (frame space)
+// m   a single object or character is moving w.r.t. the frame (i.e., in frame space)
+// mm   multiple characters or objects are moving w.r.t. the frame (i.e., in frame space)
+// tr   tracking motion: an object is moving in world space, but is stationary in the frame due to camera motion.
+
+// ----------------------------- motion (camera)
+// pt   pan, tilt, or a combination of the two
+// z    zoom
+// d    dolly
+// dizo dolly in, zoom out (not common)
+// cr   crane: camera base and mount are both in motion
+// h    as above, but jerkier
+// r    racking (focal plane in motion)
+
+// end  the last frame number
+
+// note: this file uses frame numbers indexed from 1
+
+end 2304 2304
+
+f 1 16
+
+c 16 17
+f 17 134
+z 17 134
+
+c 134 135
+f 135 197
+
+c 197 198
+f 198 348
+z 198 348
+
+c 348 349
+f 349 523
+z 349 523
+
+c 523 524
+f 524 550
+
+c 550 551
+f 551 580
+
+c 580 581
+f 581 788
+
+c 788 789
+f 789 819
+
+c 819 820
+f 820 915
+
+c 915 916
+f 916 961
+
+c 961 962
+ff 962 1055
+
+c 1055 1056
+ff 1056 1124
+m 1056 1124
+
+c 1124 1125
+f 1125 1228
+
+c 1228 1229
+ff 1229 1284
+
+c 1284 1285
+f 1285 1322
+
+c 1322 1323
+ff 1323 1381
+
+c 1381 1382
+f 1382 1472
+
+c 1472 1473
+f 1473 1511
+
+c 1511 1512
+f 1512 1551
+
+c 1551 1552
+f 1552 1601
+pt 1575 1601
+
+c 1601 1602
+f 1602 1687
+
+c 1687 1688
+f 1688 1755
+
+c 1755 1756
+f 1756 1873
+
+c 1873 1874
+f 1874 1923
+
+c 1923 1924
+f 1924 1990
+
+c 1990 1991
+f 1991 2138
+
+c 2138 2139
+f 2139 2293
+tr 2180 2250
+
+c 2293 2294
+ff 2294 2304
+
+doff 1  16
+don 17 134
+
+doff 173 197
+don 198 348
+doff 349 470
+
+don 495 515
+don 530 548
+don 550 576
+
+doff 634 723
+don 778 817
+don 856 883
+
+doff 1014 1055
+don 1056 1100
+
+doff 1118 1124
+don 1125 1230
+
+don 1230 1265
+don 1283 1319
+don 1323 1368
+don 1390 1477
+
+doff 1524 1581
+doff 1581 1601
+don 1602 1985
+don 2087 2138
+don 2220 2287
+

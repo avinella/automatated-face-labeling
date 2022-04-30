@@ -1,0 +1,214 @@
+// ----------------------------- editing
+// c    plain cut
+// mmc  motion matched cut
+// xf   cross fade
+
+// ----------------------------- other
+// don  dialogue, speaking character is onscreen
+// doff dialogue, speaking character's face is not visible, or voiceover
+// txt  text is onscreen
+
+// ----------------------------- faces
+// f    a single face is present onscreen
+// fa   a non-human face is present onscreen
+// ff   multiple faces (human and/or nonhuman) are onscreen
+
+// ----------------------------- motion (frame space)
+// m   a single object or character is moving w.r.t. the frame (i.e., in frame space)
+// mm   multiple characters or objects are moving w.r.t. the frame (i.e., in frame space)
+// tr   tracking motion: an object is moving in world space, but is stationary in the frame due to camera motion.
+
+// ----------------------------- motion (camera)
+// pt   pan, tilt, or a combination of the two
+// z    zoom
+// d    dolly
+// dizo dolly in, zoom out (not common)
+// cr   crane: camera base and mount are both in motion
+// h    as above, but jerkier
+// r    racking (focal plane in motion)
+
+// end  the last frame number
+
+// note: this file uses frame numbers indexed from 1
+
+f 4 32
+
+c 32 33
+f 34 86
+
+c 86 87
+f 87 185
+pt 169 185
+
+c 185 186
+f 186 226
+
+c 226 227
+f 227 326
+
+c 326 327
+f 327 426
+f 434 459
+r 425 448
+r 466 476
+
+c 572 573
+f 573 652
+
+c 652 653
+f 653 710
+
+c 710 711
+f 711 780
+
+c 780 781
+f 781 827
+
+c 827 828
+f 828 833
+ff 834 862
+
+c 862 863
+f 863 867
+f 869 890
+r 867 879
+
+c 890 891
+ff 891 932
+
+c 932 933
+f 933 1016
+
+c 1016 1017
+ff 1017 1115
+
+c 1115 1116
+f 1116 1154
+
+c 1173 1174
+ff 1174 1262
+
+c 1262 1263
+f 1263 1313
+m 1263 1313
+
+c 1313 1314
+ff 1314 1439
+
+c 1439 1440
+ff 1440 1508
+
+c 1508 1509
+ff 1509 1559
+
+c 1559 1560
+f 1560 1568
+f 1568 1751
+r 1572 1582
+m 1560 1720
+
+c 1751 1752
+ff 1752 1802
+
+c 1802 1803
+ff 1803 1858
+
+c 1858 1859
+ff 1859 1938
+
+c 1938 1939
+ff 1939 1994
+
+c 1994 1995
+ff 1995 2062
+
+c 2062 2063
+ff 2063 2101
+
+c 2101 2102
+ff 2102 2145
+
+c 2145 2146
+ff 2146 2283
+
+c 2283 2284
+ff 2284 2334
+
+c 2334 2335
+ff 2335 2427
+
+c 2427 2428
+f 2428 2618
+d 2428 2523
+
+c 2618 2619
+f 2619 2984
+
+c 2984 2985
+f 2985 3086
+
+c 3086 3087
+f 3087 3370
+
+c 3370 3371
+f 3371 3472
+
+c 3472 3473
+f 3473 3595
+
+c 3595 3596
+f 3596 3698
+
+c 3698 3699
+f 3699 4085
+
+c 4085 4086
+d 4086 4174
+pt 4175 4373
+z 4175 4373
+fa 4331 4418
+
+c 4418 4419
+f 4419 4699
+
+doff 92 111
+don 166 173
+don 190 211
+don 272 318
+don 354 440
+don 524 541
+don 609 640
+don 661 691
+don 758 790
+don 840 935
+don 954 1011
+don 1041 1086
+doff 1098 1115
+don 1116 1161
+don 1192 1258
+doff 1272 1305
+don 1322 1351
+don 1351 1439
+doff 1440 1468
+don 1469 1508
+don 1601 1752
+don 1821 1841
+don 1930 1938
+doff 1939 1994
+don 1995 2050
+doff 2051 2065
+don 2066 2101
+doff 2102 2145
+don 2146 2256
+don 2290 2338
+don 2415 2780
+doff 2781 2882
+don 2883 3166
+doff 3220 3268
+don 3269 3391
+doff 3392 3494
+don 3495 3843
+doff 3878 4214
+don 4215 4430
+
+end 4699 4699

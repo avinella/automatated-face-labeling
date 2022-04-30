@@ -1,0 +1,123 @@
+// ----------------------------- editing
+// c    plain cut
+// mmc  motion matched cut
+// xf   cross fade
+
+// ----------------------------- other
+// don  dialogue, speaking character is onscreen
+// doff dialogue, speaking character is offscreen
+// txt  text is onscreen
+
+// ----------------------------- faces
+// f    a single face is present onscreen
+// fa   a non-human face is present onscreen
+// ff   multiple faces (human and/or nonhuman) are onscreen
+
+// ----------------------------- motion (frame space)
+// m   a single object or character is moving w.r.t. the frame (i.e., in frame space)
+// mm   multiple characters or objects are moving w.r.t. the frame (i.e., in frame space)
+// tr   tracking motion: an object is moving in world space, but is stationary in the frame due to camera motion.
+
+// ----------------------------- motion (camera)
+// pt   pan, tilt, or a combination of the two
+// z    zoom
+// d    dolly
+// dizo dolly in, zoom out (not common)
+// cr   crane: camera base and mount are both in motion
+// h    as above, but jerkier
+// r    racking (focal plane in motion)
+
+// end  the last frame number
+
+// these frames indexed from 1
+
+// not in english, decided not to count them
+//dia 268 312
+//dia 388 446
+//dia 475 522
+//dia 578 623
+//dia 666 694
+//dia 733 779
+//dia 869 928
+
+end 3189 3189
+
+doff 2268 2292
+doff 2586 2604
+don 2605 2638
+don 2649 2909
+doff 2910 3151
+
+f 1 30
+d 1 30
+c 30 31
+
+d 31 114
+c 114 115
+
+pt 115 174
+f 115 138
+c 174 175
+
+f 175 215
+c 215 216
+
+c 257 258
+
+f 258 299
+c 299 300
+
+ff 300 637
+//mbg 300 637
+d 360 637
+
+c 637 638
+f 638 684
+
+c 684 685
+ff 685 1539
+cr 685 871
+tr 871 1420
+cr 1420 1770
+mm 685 1809
+
+c 1809 1810
+ff 1810 1965
+c 1965 1966
+
+c 2124 2125
+ff 2125 2232
+d 2125 2232
+
+c 2232 2233
+h 2233 2307
+ff 2233 2307
+
+c 2307 2308
+d 2308 2355
+
+c 2355 2356
+f 2356 2425
+h 2356 2425
+
+c 2425 2426
+ff 2426 2506
+h 2426 2506
+
+c 2506 2507
+tr 2507 2538
+f 2507 2538
+
+c 2538 2539
+ff 2539 2604
+h 2539 2604
+
+c 2604 2605
+f 2605 2656
+h 2605 2636
+
+c 2656 2657
+ff 2657 2909
+
+c 2909 2910
+f 2910 3189

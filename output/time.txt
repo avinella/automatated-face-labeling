@@ -1,0 +1,49 @@
+no_country_clip2 MTCNN took 163.55506929499097
+no_country_clip2 Haar Cascade took 60.30671656806953
+no_country_clip1 RetinaFace took 374.97622269182466
+no_country_clip1 Haar Cascade took 81.50274265906774
+kings RetinaFace took 589.5688477510121
+kings Haar Cascade took 132.61435189587064
+no_country_clip2 MTCNN took 84.04287269897759
+no_country_clip2 RetinaFace took 117.9412378440611
+no_country_clip2 Haar Cascade took 39.601303367875516
+no_country_clip2 MTCNN took 81.30237537296489
+no_country_clip1 MTCNN took 131.89577985787764
+amadeus RetinaFace took 622.6615824319888
+amadeus Haar Cascade took 154.1462397610303
+kings MTCNN took 292.42510517919436
+no_country_clip2 MTCNN took 64.60374554921873
+departed RetinaFace took 297.14128398685716
+departed Haar Cascade took 59.920016227988526
+amadeus MTCNN took 257.38399402890354
+departed MTCNN took 144.09031545207836
+chicago MTCNN took 284.3016595209483
+chicago RetinaFace took 477.70570490998216
+chicago Haar Cascade took 94.80541184917092
+gladiator MTCNN took 381.2207138200756
+gladiator RetinaFace took 376.7739235269837
+gladiator Haar Cascade took 111.14428222412243
+shakespeare_clip1 MTCNN took 203.89598381798714
+shakespeare_clip1 RetinaFace took 177.58522806409746
+shakespeare_clip1 Haar Cascade took 69.55637445300817
+shakespeare_clip2 MTCNN took 340.7591601249296
+shakespeare_clip2 RetinaFace took 287.50055346498266
+shakespeare_clip2 Haar Cascade took 124.35915677901357
+unforgiven MTCNN took 346.45077483705245
+unforgiven RetinaFace took 299.1093018320389
+unforgiven Haar Cascade took 107.16025039111264
+birdman MTCNN took 619.360053186072
+birdman RetinaFace took 563.8243376230821
+slumdog MTCNN took 339.86657273210585
+birdman Haar Cascade took 175.39898080704734
+emperor MTCNN took 327.8422889818903
+slumdog RetinaFace took 333.44991643191315
+slumdog Haar Cascade took 111.34343207092024
+argo MTCNN took 450.94759284402244
+emperor RetinaFace took 320.10688471607864
+emperor Haar Cascade took 152.69069368904456
+saving MTCNN took 404.07704492798075
+argo RetinaFace took 594.4010969060473
+argo Haar Cascade took 158.806999376975
+saving RetinaFace took 543.7515120280441
+saving Haar Cascade took 113.03326034895144

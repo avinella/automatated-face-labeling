@@ -1,0 +1,90 @@
+
+Clip: amadeus
+Haar Cascade Missed: 2869 out of 4699
+Single face accuracy: 0.46648223026175784
+Multi face accuracy: 0.5222387742072782
+Total accuracy: 0.6105554373270908
+
+Clip: argo
+Haar Cascade Missed: 3133 out of 5157
+Single face accuracy: 0.501842156292418
+Multi face accuracy: 0.7343416715144464
+Total accuracy: 0.6075237541206128
+
+Clip: birdman
+Haar Cascade Missed: 3953 out of 5864
+Single face accuracy: 0.526944065484311
+Multi face accuracy: 0.4689631650750341
+Total accuracy: 0.6741132332878581
+
+Clip: chicago
+Haar Cascade Missed: 2347 out of 3590
+Single face accuracy: 0.5289693593314764
+Multi face accuracy: 0.6727019498607243
+Total accuracy: 0.6537604456824513
+
+Clip: departed
+Haar Cascade Missed: 840 out of 2304
+Single face accuracy: 0.6506076388888888
+Multi face accuracy: 0.7452256944444444
+Total accuracy: 0.3645833333333333
+
+Clip: emperor
+Haar Cascade Missed: 2179 out of 3189
+Single face accuracy: 0.616807776732518
+Multi face accuracy: 0.4619002822201317
+Total accuracy: 0.6832862966447162
+
+Clip: gladiator
+Haar Cascade Missed: 3037 out of 4386
+Single face accuracy: 0.5745554035567715
+Multi face accuracy: 0.60328317373461
+Total accuracy: 0.6924304605563155
+
+Clip: kings
+Haar Cascade Missed: 2871 out of 4293
+Single face accuracy: 0.49825296995108315
+Multi face accuracy: 0.5937572792918705
+Total accuracy: 0.6687631027253669
+
+Clip: no_country_clip1
+Haar Cascade Missed: 1373 out of 2855
+Single face accuracy: 0.5719789842381786
+Multi face accuracy: 0.923292469352014
+Total accuracy: 0.4809106830122592
+
+Clip: no_country_clip2
+Haar Cascade Missed: 776 out of 1345
+Single face accuracy: 0.44609665427509293
+Multi face accuracy: 0.6475836431226766
+Total accuracy: 0.5769516728624535
+
+Clip: saving
+Haar Cascade Missed: 2042 out of 4141
+Single face accuracy: 0.6836512919584641
+Multi face accuracy: 0.777106978990582
+Total accuracy: 0.49311760444337116
+
+Clip: shakespeare_clip1
+Haar Cascade Missed: 1207 out of 1920
+Single face accuracy: 0.6609375
+Multi face accuracy: 0.4526041666666667
+Total accuracy: 0.6286458333333333
+
+Clip: shakespeare_clip2
+Haar Cascade Missed: 1904 out of 2987
+Single face accuracy: 0.5098761298962169
+Multi face accuracy: 0.46233679276866424
+Total accuracy: 0.6374288583863408
+
+Clip: slumdog
+Haar Cascade Missed: 2484 out of 3910
+Single face accuracy: 0.6296675191815857
+Multi face accuracy: 0.6150895140664961
+Total accuracy: 0.6352941176470588
+
+Clip: unforgiven
+Haar Cascade Missed: 2504 out of 3486
+Single face accuracy: 0.5393000573723465
+Multi face accuracy: 0.46041308089500865
+Total accuracy: 0.7183017785427424

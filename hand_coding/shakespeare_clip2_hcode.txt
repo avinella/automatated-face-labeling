@@ -1,0 +1,110 @@
+// ----------------------------- editing
+// c    plain cut
+// mmc  motion matched cut
+// xf   cross fade
+
+// ----------------------------- other
+// don  dialogue, speaking character is onscreen
+// doff dialogue, speaking character is offscreen
+// txt  text is onscreen
+
+// ----------------------------- faces
+// f    a single face is present onscreen
+// fa   a non-human face is present onscreen
+// ff   multiple faces (human and/or nonhuman) are onscreen
+
+// ----------------------------- motion (frame space)
+// m   a single object or character is moving w.r.t. the frame (i.e., in frame space)
+// mm   multiple characters or objects are moving w.r.t. the frame (i.e., in frame space)
+// tr   tracking motion: an object is moving in world space, but is stationary in the frame due to camera motion.
+
+// ----------------------------- motion (camera)
+// pt   pan, tilt, or a combination of the two
+// z    zoom
+// d    dolly
+// dizo dolly in, zoom out (not common)
+// cr   crane: camera base and mount are both in motion
+// h    as above, but jerkier
+// r    racking (focal plane in motion)
+
+// end  the last frame number
+
+end 2987 2987
+
+don 154 294
+don 654 920
+don 926 949
+don 1160 1525
+don 1671 1787
+don 1891 1987
+doff 2174 2206
+don 2207 2839
+
+ff 1 253
+f 254 293
+f 303 454
+m 193 312
+d 103 192
+cr 193 323
+c 454 455
+
+ff 455 529
+c 529 530
+
+ff 530 579
+c 579 580
+
+f 580 607
+m 585 607
+c 607 608
+
+ff 608 622
+c 622 623
+
+f 623 691
+c 691 692
+
+ff 692 925
+m 761 830
+c 925 926
+
+ff 926 958
+c 958 959
+
+f 959 1090
+ff 1091 1460
+f 1461 1604
+d 1021 1120
+d 1293 1588
+c 1604 1605
+
+ff 1605 1638
+c 1638 1639
+
+f 1639 1657
+m 1639 1657
+c 1657 1658
+
+ff 1658 1682
+c 1682 1683
+
+f 1683 1794
+c 1794 1795
+
+m 1806 1824
+ff 1795 1838
+c 1838 1839
+
+ff 1839 1863
+c 1863 1864
+
+f 1864 2132
+pt 1950 2035
+c 2132 2133
+
+f 2133 2206
+c 2206 2207
+
+f 2207 2331
+ff 2332 2987
+cr 2237 2940
