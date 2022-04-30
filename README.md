@@ -13,6 +13,7 @@ The frames from the clips were generated using [ffmpeg](https://ffmpeg.org/) wit
 `ffmpeg -i clipname.mp4 '/frames/clipname/clipname_%05d.png`
 
 and restitched together with
+
 `ffmpeg -y -framerate 24 -i annotated/" + clip_name + "_hc/" + clip_name + "_%05d.jpg " + "output/" + clip_name + "_output/" + clip_name + "_hc_annotated.mp4`.
 
 Note that the annotated frames should be converted to JPEGs before stitching, as the PNG files may be too large to properly view in an MP4.
