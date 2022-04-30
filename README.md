@@ -14,4 +14,6 @@ and restitched together with
 `ffmpeg -y -framerate 24 -i annotated/" + clip_name + "_hc/" + clip_name + "_%05d.jpg " + "output/" + clip_name + "_output/" + clip_name + "_hc_annotated.mp4`.
 Note that the annotated frames should be converted to JPEGs before stitching, as the PNG files may be too large to properly view in an MP4.
 
+The results of each model were compared to hand-labeled data provided by [Gaze Data for the Analysis of Attention in Feature Films](https://graphics.stanford.edu/~kbreeden/gazedata.html).
+
 main.py can be run in its current state to run every model on every clip without generating annotated frames.
