@@ -161,6 +161,7 @@ def main(clips, generate_video):
         for clipname in clips:
             run_detectors(clipname, generate_video)
 
+# runs all models on all clips, then generates the overall results
 main([], False)
 models = ["hc", "mtcnn", "rf"]
 for model in models:
